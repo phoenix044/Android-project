@@ -16,9 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Chronometer mTimer = findViewById(R.id.timer);
-        mTimer.setBase(SystemClock.elapsedRealtime());
-        mTimer.start();
         ImageButton lockButton = findViewById(R.id.btn_long_click);
         lockButton.setOnClickListener(new View.OnClickListener() {
             @Override

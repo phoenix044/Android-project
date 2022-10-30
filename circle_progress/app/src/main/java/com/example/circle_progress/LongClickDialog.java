@@ -36,6 +36,7 @@ public class LongClickDialog extends Dialog {
                 ImageButton lock_button = getOwnerActivity().findViewById(R.id.btn_long_click);
                 if (lock_button.isSelected())   lock_button.setSelected(false);
                 dismiss();
+                dismiss();
             }
 
             @Override
