@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">circle_progress</string>
+    <string name="confirm_text">确定</string>
+    <string name="test_text">测试用例</string>
+</resources>

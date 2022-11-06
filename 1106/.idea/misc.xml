@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/circle_progress/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/circle_layout.xml" value="0.1225" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/hint_msg_background.xml" value="0.1225" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/lock_button_select.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/spinner_buttom_background.xml" value="0.1225" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/spinner_button_background.xml" value="0.1285" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/spinner_main_background.xml" value="0.1225" />
+        <entry key="..\:/circle_progress/app/src/main/res/drawable/spinner_top_background.xml" value="0.1285" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/fragmenr_long_click.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/long_click_view.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/spinner_layout.xml" value="0.1" />
+        <entry key="..\:/circle_progress/app/src/main/res/layout/spinner_layout1.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

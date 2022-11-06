@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spinner_main_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/test_hint"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="30dp"
+        android:background="@color/colorHint"
+        android:gravity="center"
+        android:text="@string/test_text"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/status_view"/>
+
+    <View
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorStatus"
+        app:layout_constraintVertical_weight="3"
+        app:layout_constraintTop_toBottomOf="@id/test_hint"
+        app:layout_constraintBottom_toTopOf="@id/position_view"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginStart="40dp"
+        android:background="@color/colorItem"
+        app:layout_constraintStart_toStartOf="@id/status_view"
+        app:layout_constraintTop_toTopOf="@id/status_view"/>
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="40dp"
+        android:background="@color/colorItem"
+        app:layout_constraintStart_toStartOf="@id/status_view"
+        app:layout_constraintTop_toTopOf="@id/status_view"/>
+
+    <ListView
+        android:id="@+id/status_category"
+        android:layout_width="55dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="40dp"
+        android:background="#00000000"
+        android:divider="@null"
+        android:dividerHeight="22dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="@id/line_1"
+        app:layout_constraintTop_toBottomOf="@id/line_1"
+        app:layout_constraintBottom_toTopOf="@id/line_2"/>
+
+    <ListView
+        android:id="@+id/status_item"
+        android:layout_width="105dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="30dp"
+        android:background="#00000000"
+        android:divider="@null"
+        android:dividerHeight="22dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintStart_toEndOf="@id/status_category"
+        app:layout_constraintTop_toBottomOf="@id/line_1"
+        app:layout_constraintBottom_toTopOf="@id/line_2"/>
+
+    <View
+        android:id="@+id/position_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPosition"
+        app:layout_constraintVertical_weight="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/status_view"
+        app:layout_constraintBottom_toTopOf="@id/person_view"/>
+
+    <View
+        android:id="@+id/person_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPerson"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/position_view"
+        app:layout_constraintBottom_toTopOf="@id/confirm_button1"/>
+
+
+    <Button
+        android:id="@+id/confirm_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/spinner_button_background"
+        app:layout_constraintTop_toBottomOf="@id/person_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
